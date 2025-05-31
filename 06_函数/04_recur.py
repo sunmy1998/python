@@ -5,7 +5,7 @@ def fact(n):
     return n * fact(n - 1)
 
 # 尾递归
-def fact(n):
+def fact_new(n):
     return fact_iter(n, 1)
 
 def fact_iter(num, product):
